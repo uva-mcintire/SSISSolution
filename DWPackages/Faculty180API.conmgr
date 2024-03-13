@@ -1,0 +1,16 @@
+﻿<?xml version="1.0"?>
+<DTS:ConnectionManager xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:ObjectName="Faculty180API"
+  DTS:DTSID="{9913BABA-60F5-4B0B-93A4-642C4E644DA1}"
+  DTS:CreationName="OLEDB">
+  <DTS:ObjectData>
+    <DTS:ConnectionManager
+      DTS:ConnectRetryCount="1"
+      DTS:ConnectRetryInterval="5"
+      DTS:ConnectionString="Data Source=mcintire-websites-sqlserver.privatelink.database.windows.net;User ID=SSISADF@mcintire-websites-sqlserver.database.windows.net;Initial Catalog=Faculty180;Provider=SQLOLEDB.1;Persist Security Info=True;Application Name=SSIS-{9913BABA-60F5-4B0B-93A4-642C4E644DA1}Faculty180API;">
+      <DTS:Password
+        DTS:Name="Password"
+        Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAkDQR2mRIikKnUxWuB0rLOgAAAAACAAAAAAADZgAAwAAAABAAAABso+b5qLceh/NyzGcOmBiUAAAAAASAAACgAAAAEAAAAMZEjPQHmBDePSm+3OaEieiAAAAAT0I2pTDnzRQUSOI4oqdapZgRcGwFglXE9hH0wniCQIZRKn9kJKlD61N2xgq+geTZjLiXjLefsHxE1+p9Mr3vCUyOlmTClQSt8fLCnHbqRDfzYhH4GPeR2++iKji3LSfA0yfVh/OSR+FzbLAcyiTZ9tmsTqxk//COI1LtZA5M65UUAAAA6hH5aok4yIeb1wfVvxnPjbsAKqc=</DTS:Password>
+    </DTS:ConnectionManager>
+  </DTS:ObjectData>
+</DTS:ConnectionManager>

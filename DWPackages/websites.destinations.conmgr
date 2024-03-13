@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<DTS:ConnectionManager xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:ObjectName="websites.destinations"
+  DTS:DTSID="{46400304-1C49-44BD-AEB2-716F48ACC6D5}"
+  DTS:CreationName="OLEDB">
+  <DTS:PropertyExpression
+    DTS:Name="ConnectionString">@[$Project::MCWebsites_ConnectionString]</DTS:PropertyExpression>
+  <DTS:ObjectData>
+    <DTS:ConnectionManager
+      DTS:ConnectRetryCount="1"
+      DTS:ConnectRetryInterval="5"
+      DTS:ConnectionString="Data Source=mcintire-websites-sqlserver.privatelink.database.windows.net;User ID=SSISADF@mcintire-websites-sqlserver.database.windows.net;Initial Catalog=Destinations;Provider=MSOLEDBSQL.1;Persist Security Info=True;Auto Translate=False;TrustServerCertificate=False;">
+      <DTS:Password
+        DTS:Name="Password"
+        Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAkDQR2mRIikKnUxWuB0rLOgAAAAACAAAAAAADZgAAwAAAABAAAADgP4Tjf1pqoVumXmkKCrWWAAAAAASAAACgAAAAEAAAAAHgL8AOjsSL/VaU8j5tsOOAAAAAt/4rN852h4ZtXgCAtVM2OCKafkG+tcy7wvNPla+7384OoDmyILHJazWRb6bMg9yzlbfzQE5iuS9Sl3ItXuNVy0OAGTrE07J2BOVbJE8VfcSt4ojR0wpb1yL64NF+xflaYxU3Iee4laxuuyXL7wpGl788ccvvWjVXXsQQ+/L0a/cUAAAAzvwlSZ1W9lSPMGPeZq/D1pK7lO8=</DTS:Password>
+    </DTS:ConnectionManager>
+  </DTS:ObjectData>
+</DTS:ConnectionManager>

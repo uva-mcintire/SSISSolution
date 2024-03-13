@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<DTS:ConnectionManager xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:ObjectName="mcintire-databases"
+  DTS:DTSID="{C0FCCB31-CD60-4BBA-A434-BCC7FF306213}"
+  DTS:CreationName="OLEDB">
+  <DTS:PropertyExpression
+    DTS:Name="ConnectionString">@[$Project::MCDatabases_ConnectionString]</DTS:PropertyExpression>
+  <DTS:ObjectData>
+    <DTS:ConnectionManager
+      DTS:ConnectRetryCount="1"
+      DTS:ConnectRetryInterval="5"
+      DTS:ConnectionString="Data Source=mcintire-databases.database.windows.net;User ID=azureserviceaccount;Initial Catalog=Data Warehouse;Provider=MSOLEDBSQL.1;Persist Security Info=True;Auto Translate=False;">
+      <DTS:Password
+        DTS:Name="Password"
+        Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAkDQR2mRIikKnUxWuB0rLOgAAAAACAAAAAAADZgAAwAAAABAAAADFwjJiWXrA64l/68zp6aljAAAAAASAAACgAAAAEAAAAEZtqlGxCMrxog9NBNrMEaGAAAAAU/NRh1Gn3C48A/cwEk0h6JDJaHlCsnne0UZR6B+WggRTnn9rWrGMJK98GQKZiX9mMf4DttFA2RiJwWdgdMCN6Y8VAaHb8w5xGbms1gyqy3Ulhgsc7sm7WgTQSBlAdRRvFg1gGSvB3BAxn3FvXfmHEfR7bPBf6lO3mmspajqAzu0UAAAApPB2QtFsGqxq0RkVwSDxqtbxy3w=</DTS:Password>
+    </DTS:ConnectionManager>
+  </DTS:ObjectData>
+</DTS:ConnectionManager>
